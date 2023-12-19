@@ -31,7 +31,7 @@ store = RedisStore(redis.StrictRedis())
 KVSessionExtension(store, app)
 app.secret_key = os.urandom(32)
 
-random_msg = random.choice(["No.", "It is pointless.", "You can leave now.", "-._-.", "You shall not pass!", "Skill issue.", "Y'know, trying to ruin all the fun for everyone is just lame. Why not go outside, maybe get some bitches, will ya?"])
+random_msg = random.choice(["No.", "It is pointless.", "You can leave now.", "-._-.", "You shall not pass!", "Skill issue.", "Y'know, trying to ruin all the fun for everyone is just lame. Why not go outside, maybe get a life or something, will ya?"])
 
 def remove(string):
     return string.replace(" ", "")
