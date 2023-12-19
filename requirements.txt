@@ -1,0 +1,8 @@
+Flask
+redis
+requests
+itsdangerous
+pizzapi
+Flask-KVSession
+simplekv
+pymysql
